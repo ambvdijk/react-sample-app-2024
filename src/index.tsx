@@ -1,7 +1,7 @@
 import React from "react";
-import * as ReactDOMClient from "react-dom/client";
 import { RouterProvider } from "react-router-dom";
 import { router } from "./router";
+import { createRoot } from "react-dom/client";
 
 function Application() {
   return (
@@ -11,7 +11,4 @@ function Application() {
   );
 }
 
-const rootElement: HTMLElement = document.getElementById("root")!;
-
-const root = ReactDOMClient.createRoot(rootElement);
-root.render(<Application />);
+createRoot(document.getElementById("root")!).render(<Application />);

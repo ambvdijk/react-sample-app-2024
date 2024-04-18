@@ -1,11 +1,11 @@
-import React, { Fragment } from "react";
+import React from "react";
 
 export function Home() {
   return (
-    <Fragment>
+    <main role="main">
       <h1>Homepage</h1>
       <nav>
-        <ul>
+        <ul role="nav">
           <li>
             <a href={`/page1`}>Page 1</a>
           </li>
@@ -14,6 +14,6 @@ export function Home() {
           </li>
         </ul>
       </nav>
-    </Fragment>
+    </main>
   );
 }
