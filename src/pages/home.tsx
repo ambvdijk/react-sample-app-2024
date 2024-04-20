@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export function Home() {
   return (
@@ -7,10 +8,10 @@ export function Home() {
       <nav>
         <ul role="nav">
           <li>
-            <a href={`/page1`}>Page 1</a>
+            <Link to={`/page1`}>Page 1</Link>
           </li>
           <li>
-            <a href={`/page2`}>Page 2</a>
+            <Link to={`/page2`}>Page 2</Link>
           </li>
         </ul>
       </nav>
