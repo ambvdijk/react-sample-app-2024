@@ -3,7 +3,7 @@
 This is a basic sample of a 2024 React Web Application without Babel using only
 1. React
 2. TypeScript
-3. Parcel
+3. Vite
 4. Jest (using ts-jest)
 
 
