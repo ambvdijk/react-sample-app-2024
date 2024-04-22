@@ -1,4 +1,3 @@
-import React from "react";
 import { createBrowserRouter } from "react-router-dom";
 import { Home, Page1, Page2 } from "./pages";
 
