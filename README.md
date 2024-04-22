@@ -7,17 +7,17 @@ This is a basic sample of a 2024 React Web Application without Babel using only
 4. Jest (using ts-jest)
 
 
-This project is using yarn as a package manager. You can install yarn using:
-```shell
-> npm i -g yarn
-```
-
 To install all dependencies:
 ```shell
-> yarn
+> npm install
 ```
 
 To start the project:
 ```shell
-> yarn start
+> npm run start
+```
+
+Run tests:
+```shell
+> npm run test
 ```
